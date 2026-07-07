@@ -28,6 +28,8 @@ Built while learning the fundamentals of Biopython, sequence manipulation, and d
 ```text
 Sample Input File
 
+FASTA Files
+
 Notebook
 
 Bioinformatics-Python-Basics
@@ -75,7 +77,6 @@ There is a notebook containing 14 beginner-friendly exercises covering the funda
 | 12 | Motif Finding | Finds every occurrence of a specified motif |
 | 13 | Homopolymer Strength | Identifies the longest consecutive run of the same nucleotide |
 | 14 | Common Genes Between Experiments | Finds overlapping genes using Python set operations |
-
 #  Why Use a Real Dataset?
 
 Using the HPV16 genome instead of an artificial DNA sequence helps demonstrate how introductory bioinformatics methods can be applied to authentic biological data.

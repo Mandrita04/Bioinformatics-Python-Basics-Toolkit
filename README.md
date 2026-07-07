@@ -1,4 +1,4 @@
-# Bioinformatics with Python: A Beginner's Toolkit
+# Bioinformatics with Python: Genomic_Sequence_Analysis_Toolkit_HPV16
 
 This repository documents my journey into computational biology.Rather than using randomly generated DNA sequences, the analysis in this project is performed on a **real FASTA dataset** containing the complete genome sequence of **Human Papillomavirus Type 16 (HPV16)**.Human Papillomavirus Type 16 (HPV16) is one of the high-risk HPV types associated with several cancers, particularly cervical cancer. Using its genome as an example dataset provides an opportunity to practice computational analysis on a biologically important viral genome.
 

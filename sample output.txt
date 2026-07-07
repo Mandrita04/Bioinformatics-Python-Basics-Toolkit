@@ -1,0 +1,23 @@
+1.output of ATGC Content Calculation
+  Input is HPV16 Fasta File
+  Length: 7904
+  GC Content: 36.51315789473684
+  AT Content: 63.48684210526316
+
+
+2.Output of Homopolymer strength
+  Input is HPV16 fasta file
+  Longest Homopolymer: TTTTTTTTTTT
+  Length: 11
+
+3.Output of Motif Filder Tool
+   Input is HPV16 FASTA file 
+   The sample motif to be searched id AGC
+    Positions: [71, 123, 156, 204, 372, 426, 447, 468, 552, 638, 652, 684, 693, 708, 772, 1062, 1089, 1196, 1223, 1248, 1257, 1288, 1478, 1487, 1604, 1664, 1786, 1808, 1811, 1814, 2105, 2182, 2297, 2379, 2402, 2512, 2671, 2958, 2967, 3046, 3180, 3355, 3358, 3392, 3429, 3470, 3485, 3571, 3674, 4003, 4006, 4477, 4743, 4844, 4871, 5065, 5110, 5299, 5503, 5703, 5923, 5968, 6044, 6369, 6494, 6581, 6935, 7049, 7094, 7147, 7424, 7443, 7509, 7882]
+    Occurrences: 74
+
+4.Output of Restriction Enzyme Finding(eg. BamHI,EcoRI,HindIII)
+  Input is HPV16 Fasta file
+  BamHI site found at position: 6149
+  EcoRI site found at position: 6817
+  EcoRI site found at position: 7452

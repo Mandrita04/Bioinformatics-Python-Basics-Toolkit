@@ -1,11 +1,20 @@
 # Bioinformatics with Python: A Beginner's Toolkit
 
-This repository documents my journey into computational biology, starting from the basics reading FASTA files, counting nucleotides, translating sequences, and visualizing sequence composition all the way to simple motif search and gene set comparison.
+This repository documents my journey into computational biology.Rather than using randomly generated DNA sequences, the analysis in this project is performed on a **real FASTA dataset** containing the complete genome sequence of **Human Papillomavirus Type 16 (HPV16)**.Human Papillomavirus Type 16 (HPV16) is one of the high-risk HPV types associated with several cancers, particularly cervical cancer. Using its genome as an example dataset provides an opportunity to practice computational analysis on a biologically important viral genome.
+
+The DNA sequence used in this project was obtained from the ENA(European Nucleotide Archive) database in FASTA format.Working with an authentic biological dataset allowed me to understand how computational tools are applied to real genomic sequences and provided hands-on experience with biological data commonly available in public databases.
 
 Built while learning the fundamentals of Biopython, sequence manipulation, and data visualization each script and notebook exercise is intentionally kept small and easy to understand, making it suitable for beginners in Python and bioinformatics.
 
 ---
 
+# Dataset
+- Dataset: Human Papillomavirus Type 16 (HPV16) Complete Genome
+- Source: European Nucleotide Archive (ENA)
+- Accession Number: K02718
+- Format: FASTA
+
+---
 # Tools Used
 
 - Python 3
@@ -17,21 +26,38 @@ Built while learning the fundamentals of Biopython, sequence manipulation, and d
 # Repository Structure
 
 ```text
-Bioinformatics-Python-Basics
+Sample Input File
 
- Bioinformatics tool.ipynb
- ATGC_count.py
+Notebook
+
+Bioinformatics-Python-Basics
+ fasta_reading.py
+ nucleotide_count.py
+ nucleotide_count_plot.py
+ ATGC_content_calc.py
  ATGC_content_pie_chart.py
+ DNA_reversal.py
+ DNA_conversion.py
  Amino_acid_freq.py
+ Homopolymer_strength_calc.py
+ ORF_finder.py
+ RE_finder.py
+ K-mer_counting.py
+ Motif_finder.py
+ Common_genes.py
+
+Sample Output
+
+Images 
 
  
 ```
 
 ---
 
-# Jupyter Notebook Exercises
+# The Set Of Analysis Made in Python
 
-The notebook contains 14 beginner-friendly exercises covering the fundamentals of biological sequence analysis.
+There is a notebook containing 14 beginner-friendly exercises covering the fundamentals of biological sequence analysis with sample input of Sequence.fasta file which I preferred using in my first analysing.Then I decided to use real Biological Dataset so that I can explore Databases and it will also increase the value of my project.I have included separate python script of 15 tools or analysing set to analyze the basic fundamentals of Human Pappiloma Virus type 16.
 
 | No. | Exercise | Description |
 |:---:|----------|-------------|
@@ -50,27 +76,18 @@ The notebook contains 14 beginner-friendly exercises covering the fundamentals o
 | 13 | Homopolymer Strength | Identifies the longest consecutive run of the same nucleotide |
 | 14 | Common Genes Between Experiments | Finds overlapping genes using Python set operations |
 
----
+#  Why Use a Real Dataset?
 
-#  Python Scripts
+Using the HPV16 genome instead of an artificial DNA sequence helps demonstrate how introductory bioinformatics methods can be applied to authentic biological data.
 
-## 1. ATGC_count.py
+Working with real genomic sequences develops skills that are directly applicable to:
 
-Reads a FASTA file and generates a bar chart showing the frequency of each nucleotide (A, T, G and C).
+- Computational genomics
+- Viral genome analysis
+- Sequence annotation
+- Biological database exploration
+- Reproducible bioinformatics workflows
 
----
-
-## 2. ATGC_content_pie_chart.py
-
-Calculates the GC content and AT content of a DNA sequence and displays the results using a pie chart.
-
----
-
-## 3. Amino_acid_freq.py
-
-Translates a DNA sequence into a protein sequence and visualizes the frequency of each amino acid using a bar chart.
-
----
 
 # Learning Outcomes
 
@@ -85,14 +102,5 @@ Through this project, I learned to:
 
 ---
 
-#  Future Improvements
 
-- Add error handling for missing or invalid FASTA files.
-- Convert repeated FASTA parsing code into reusable functions/modules.
-- Add unit tests for each program.
-- Extend the ORF finder to detect all six reading frames.
-- Support multiple FASTA sequences in all analysis scripts.
-- Add command-line arguments for improved usability.
-
----
 
